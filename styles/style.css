@@ -8,10 +8,14 @@
     font-family: "Azeret Mono", monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header section starts */
 .nav-container {
     width: 100%;
-    height: 90px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +41,7 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* Header section ends */
@@ -92,6 +97,11 @@
     letter-spacing: 0%;
     text-align: center;
     border: none;
+    text-decoration: none;
+}
+
+.hero-btn:hover {
+    background-color: rgb(19, 36, 73);
 }
 
 /* Hero section style ends */
@@ -178,6 +188,7 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* First contents ends */
@@ -224,6 +235,7 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* Second contents ends */
@@ -269,6 +281,7 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* Third contents ends */
@@ -524,6 +537,7 @@ input[type="button"] {
     font-family: "Azeret Mono", monospace;
     font-weight: 600;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 /* Feedback section style ends */
@@ -543,9 +557,12 @@ input[type="button"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-
-
+.footer-content p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
 /* Footer section style ends */
