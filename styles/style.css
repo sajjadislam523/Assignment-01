@@ -62,3 +62,181 @@
 }
 
 /* Hero section style ends */
+
+/* Development container style starts */
+.development-container {
+    width: 1000px;
+    height: 1250px;
+    margin: 70px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+}
+
+.content-container {
+    width: 940px;
+    height: 1246px;
+    margin: auto;
+}
+
+.headign-text {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headign-text h1 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.headign-text p {
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+}
+
+/* First content starts */
+.first-content {
+    width: 940px;
+    height: 335px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.first-contents {
+    width: 844px;
+    height: 239px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-left-section h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.first-left-section p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.first-left-section button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* First contents ends */
+
+.second-content {
+    width: 940px;
+    height: 335px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    
+}
+
+.second-contents {
+    width: 844px;
+    height: 239px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-right-section h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.second-right-section p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.second-right-section button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* Second contents ends */
+
+/* Third section starts */
+.third-content {
+    width: 940px;
+    height: 335px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.third-contents {
+    width: 844px;
+    height: 239px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-left-section h4 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.third-left-section p {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.third-left-section button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* Third contents ends */
+
+/* Development container style ends */
