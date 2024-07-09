@@ -149,13 +149,14 @@
 
 /* First contents ends */
 
+/* Second contents starts */
 .second-content {
     width: 940px;
     height: 335px;
     margin-top: 32px;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-    
+
 }
 
 .second-contents {
@@ -240,3 +241,57 @@
 /* Third contents ends */
 
 /* Development container style ends */
+
+/* Inspiration container style starts */
+.inspiration-container {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inspiration-description {
+    width: 852px;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.inspiration-description h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspiration-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.media-container {
+    width: 1145px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-container iframe {
+    width: 95%;
+    height: 90%;
+    border-radius: 16px;
+}
+
+/* Inspiration container style ends */
