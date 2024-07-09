@@ -8,15 +8,48 @@
     font-family: "Azeret Mono", monospace;
 }
 
+/* Header section starts */
+.nav-container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 70%;
+}
+
+.nav-container h2 {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.nav-container button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 12px 12px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* Header section ends */
 
 /* Hero section style starts */
 .hero {
-    width: 1360px;
+    width: 100%;
     height: 652px;
-    margin: 131px auto;
+    margin: 0 auto;
     background-image: url("../assets/Hero-bg.png");
-    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -79,7 +112,7 @@
     margin: auto;
 }
 
-.headign-text {
+.heading-text {
     width: 852px;
     height: 115px;
     margin: 0 auto;
@@ -89,14 +122,14 @@
     flex-direction: column;
 }
 
-.headign-text h1 {
+.heading-text h1 {
     color: rgb(13, 19, 33);
     font-size: 30px;
     font-weight: 800;
     line-height: 25px;
 }
 
-.headign-text p {
+.heading-text p {
     color: rgb(13, 19, 33);
     font-size: 15px;
     font-weight: 400;
@@ -351,6 +384,16 @@
     line-height: 36px;
 }
 
+.card1 a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 .card2 {
     padding: 30px;
     border-radius: 16px;
@@ -364,6 +407,16 @@
     line-height: 36px;
 }
 
+.card2 a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 .card3 {
     padding: 30px;
     border-radius: 16px;
@@ -375,6 +428,16 @@
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
+}
+
+.card3 a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 /* Current target style ends */
@@ -408,8 +471,7 @@
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -417,8 +479,9 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 20px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .input-box {
@@ -438,6 +501,15 @@ input[type="text"] {
     background: rgb(255, 255, 255);
     padding: 19px 20px;
     margin-right: 8px;
+    border: none;
+}
+
+input[type="text"] ::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 input[type="button"] {
@@ -455,3 +527,25 @@ input[type="button"] {
 }
 
 /* Feedback section style ends */
+
+/* Footer section style starts */
+
+.footer-container {
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 50px 0 50px;
+    border-radius: 16px 16px 0 0;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+/* Footer section style ends */
