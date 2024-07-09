@@ -300,7 +300,7 @@
 .current-target {
     width: 1140px;
     height: 460px;
-    margin: 150px auto;
+    margin: 150px auto 50px auto;
 }
 
 .description {
@@ -377,5 +377,81 @@
     line-height: 36px;
 }
 
-
 /* Current target style ends */
+
+/* Feedback section style starts */
+.feedback-container {
+    width: 1140px;
+    height: 313px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    width: 730px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.input-box {
+    width: 684px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+    margin-right: 8px;
+}
+
+input[type="button"] {
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+/* Feedback section style ends */
